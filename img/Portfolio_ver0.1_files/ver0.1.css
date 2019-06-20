@@ -1,0 +1,222 @@
+* {
+    box-sizing :border-box;
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','ＭＳ Ｐゴシック',sans-serif;
+
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  header {
+    width: 100%;
+    height:190px;
+  }
+  
+  .header-left {
+  float: left;
+  margin:25px 0 0 200px;
+
+  }
+
+  .logo {
+    font-size: 35px;
+  }
+
+  .header-right {
+    float: right;
+    margin-right:160px;
+  }
+  .menu {
+    list-style-type: none;
+    float: left;
+    margin-right:40px;
+    margin-top: 110px;
+  }
+
+  .menu a {
+    color: #000;
+    font-size: 14px;
+  }
+
+  .top-wrapper {
+  background-image: url(../img/photo-1468779036391-52341f60b55d.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height:400px;
+  }
+
+  
+
+  .coment {
+    text-align: left;
+    letter-spacing :12px;
+    float: left;
+    margin :60px 0 0 190px;
+}
+
+.main {
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  line-height: 1.0;
+  font-weight: 100;
+  color: grey;
+}
+
+.works-wrapper {
+  
+}
+
+.works-contents {
+  margin-left: 300px;
+}
+
+.contents {
+  float: left;
+  letter-spacing :4px;
+  margin-left: 200px;
+}
+
+.contents-icon {
+float: left;
+}
+
+.picture {
+  width: 300px;
+  height: 200px;
+  box-shadow:2px 2px 4px;
+  display: block;
+  margin-bottom: 70px;
+}
+
+
+.outline {
+ display: block;
+ margin: 0 0 100px 0;
+}
+
+.text-contents {
+ 
+}
+
+.user {
+  text-align: left;
+  font-size: 200px;
+  margin-left: 30px;
+}
+
+.about-coment {
+  color: darkgrey;
+  float: right;
+  margin-right: 400px;
+}
+
+.skill {
+  float: left;
+  width: 33.33%;
+}
+
+.skill-coment {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+input,textarea {
+  font-size :15px;
+  margin:10px 0 30px 0;
+  border :1px solid #dee7ec;
+}
+
+input.example {
+   width: 400px;
+   height: 40px;
+   background-color: #f5f5f5;
+   }
+
+textarea {
+width: 400px;
+height: 15em;
+}
+
+.contact-submit {
+  width: 150px;
+  font-size :15px;
+  background-color: #f5f5f5;
+  color: slategrey;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px ;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  width: 140px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-icon {
+  padding: 30px 0 0 50px;
+}
+
+.fa-github,.fa-twitter {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.top-scroll {
+  text-align: center;
+}
+
+.fa-arrow-circle-up {
+  color: #fff;
+}
+
+
+.history {
+  float: right;
+  margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
